@@ -1,0 +1,67 @@
+.hero-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  height: 380px;
+  width: 200px;
+  border-radius: 8px;
+  background: #FAFAFA;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.32);
+  transition: 0.25s linear;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  .hero-img {
+    width: 100%;
+    position: relative;
+
+    .tag {
+      float: left;
+      position: absolute;
+      left: 0px;
+      top: 5px;
+      font-size: 12px;
+      background-color: #079;
+      padding: 6px;
+      border-radius: 6px;
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 8px 8px 0 0;
+      max-height: 200px;
+    }
+
+  }
+  .hero-footer {
+    padding: 12px;
+    width: 100%;
+    color: #999;
+
+    .hero-footer-box {
+      margin-top: 0px;
+      display: flex;
+      justify-content: space-around;
+
+      button {
+        border: 0;
+        background: 0;
+        padding: 8px;
+      }
+    }
+
+    h4 {
+      color: #444;
+      margin-bottom: 3px;
+    }
+
+    span {
+      color: #444;
+    }
+  }
+}
