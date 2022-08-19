@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+*:focus {
+  outline: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+body,
+input,
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.Toastify__toast--success {
+  background: #008223;
+}
+
+
+::-webkit-scrollbar {
+    width: 13px;
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #079;
+    border-radius: 10px;
+}
+
+:-webkit-scrollbar-thumb:hover {
+    background: #079;
+}
