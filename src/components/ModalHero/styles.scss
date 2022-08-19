@@ -1,0 +1,65 @@
+$primary: #079;
+
+.add-box {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+
+.modal-hero {
+  position: absolute;
+  inset: 40px;
+  max-width: 400px;
+  overflow: auto;
+  background: #fafafa !important;
+  margin: auto;
+  max-height: 300px;
+  border-radius: 4px;
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.08));
+  border-radius: 2px;
+  background: #f7f7f7;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 2px;
+
+  button {
+    cursor: pointer;
+  }
+
+  .modal-hero-header {
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h4 {
+      color: #000;
+      margin-bottom: 5px;
+    }
+  }
+
+  .modal-hero-body {
+    padding: 15px 30px;
+    background: #f4f5f7;
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+
+      &.split {
+        flex-direction: row;
+        justify-content: space-between;
+        input {
+          max-width: 100px;
+        }
+      }
+    }
+  }
+  .modal-hero-footer {
+    background-color: #fafafa;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
