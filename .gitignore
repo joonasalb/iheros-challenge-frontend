@@ -10,6 +10,7 @@ dist/
 env/
 env
 media/
+build
 
 # Compiled Java class files
 *.class

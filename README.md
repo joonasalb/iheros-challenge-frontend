@@ -12,8 +12,9 @@ In the project directory, you can run:
 
 # Run on Docker
 
-```shell
-docker-compose -f docker-compose.dev.yml up
+```bash
+docker build -t iheros-frontend . 
+docker run -p 3000:3000 -d iheros-frontend
 ```
 
 Runs the app in the development mode.<br />
